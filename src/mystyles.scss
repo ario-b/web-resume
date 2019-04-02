@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+// $divider-background-color:	$grey-lighter;
+// $divider-thickness: .5rem;
+// $divider-font-size:	54px;
+// $divider-color:;
+$footer-padding: 0.725rem 0.3625rem 0.725rem;
+$dark: hsl(0, 0%, 21%);
+$blue: #42a5f5;
+
+$info: $blue;
+$link: $blue;
+
+// $primary: $dark-blue;
+
+.divider {
+  border-bottom: 5px solid $dark;
+  // margin: 0 0.5rem
+}
+
+@import "bulma";
+// @import "bulma-divider";
